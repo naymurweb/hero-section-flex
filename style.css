@@ -29,6 +29,7 @@
     height: 536px;
     border-radius: 8px;
     overflow: hidden;
+    transition: .3s ease-in-out;
 }
 
 .card-text {
@@ -100,6 +101,15 @@
     position: absolute;
     z-index: 1;
 }
+.bg {
+    transition: .3s ease-in-out;
+}
+
+.card:hover .bg {
+    background-color: rgba(25, 112, 20, 0.434);
+}
+
+
 
 /* laptop responsive */
 @media screen and (max-width:798px) {
