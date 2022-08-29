@@ -103,9 +103,6 @@
 
 /* laptop responsive */
 @media screen and (max-width:798px) {
-    .main-section {
-        background-color: violet;
-    }
 
     .card-text {
         width: 75%;
@@ -118,25 +115,27 @@
 }
 
 @media screen and (max-width:521px) {
-    .main-section {
-        background-color: yellowgreen;
-    }
 
     .card {
         flex-direction: column-reverse;
         height: 100%;
     }
 
-  
-
     .card-image {
         width: 100%;
         height: 30vh;
-    }   
+    }
 
     .card-text {
         width: 100%;
-        height: 70vh;       
+        height: 70vh;
+    }
+
+}
+
+@media screen and (max-width:418px) {
+    .text-2 {
+        gap: 15px;
     }
 
 }
