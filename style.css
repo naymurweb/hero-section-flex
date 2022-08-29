@@ -1,6 +1,16 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 
 }
+
+:root {
+    --body: #0A0C19;
+    --blue: #1B1938;
+    --violet: #AA5CDB;
+    --white: #ffff;
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Lexend Deca', sans-serif;
+}
+
