@@ -28,6 +28,7 @@
     width: 1156px;
     height: 536px;
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .card-text {
@@ -78,4 +79,24 @@
 .text-2 p {
     font-size: 16px;
     font-family: var(--secondary-font);
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    filter: grayscale(100%);
+}
+
+.card-image div {
+    width: 100%;
+    height: 100%;
+    background-color: #aa5cdb6d;
+    position: absolute;
+    z-index: 1;
 }
